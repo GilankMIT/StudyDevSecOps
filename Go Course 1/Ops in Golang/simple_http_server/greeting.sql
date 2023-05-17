@@ -1,0 +1,6 @@
+CREATE TABLE greeting (
+    ID BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    greeting VARCHAR(64) NULL,
+    name VARCHAR(64) NULL,
+    created_at BIGINT NULL
+);
